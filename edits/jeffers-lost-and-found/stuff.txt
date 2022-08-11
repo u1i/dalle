@@ -1,0 +1,6 @@
+convert j02.png -crop 600x600+212+212 -geometry 1024x1024 x.png
+
+ffmpeg -f gif -i infile.gif outfile.mp4
+
+
+
